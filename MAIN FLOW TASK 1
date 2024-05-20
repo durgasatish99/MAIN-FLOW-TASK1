@@ -1,0 +1,38 @@
+# Creating a list of colors
+colors = ['red', 'blue', 'green', 'yellow']
+
+# Adding a new color to the list
+colors.append('purple')
+
+# Removing a color from the list
+colors.remove('green')
+
+# Modifying a color in the list
+colors[1] = 'orange'
+print("Updated list of colors:", colors)
+
+# Creating a dictionary of student information
+student_info = {'name': 'Rana', 'age': 22, 'branch': 'Computer Science'}
+
+# Adding a new key-value pair for GPA
+student_info['GPA'] = 8.8
+
+# Modifying the student's age
+student_info['age'] = 24
+
+# Removing the student’s branch
+del student_info['branch']
+print("Updated student information:", student_info)
+
+# Creating a set of animal types
+animal_types = {'dog', 'cat', 'rabbit', 'puppy'}
+
+# Adding a new animal type
+animal_types.add('parrot')
+
+# Modifying the set 
+animal_types.update({'snake', 'turtle'})
+
+# Removing 
+animal_types.remove('rabbit')
+print("Updated set of animal types:", animal_types)
